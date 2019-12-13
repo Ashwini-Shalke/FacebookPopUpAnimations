@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33949DB823A37CC60091E277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33949DB723A37CC60091E277 /* AppDelegate.swift */; };
+		33949DBA23A37CC60091E277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33949DB923A37CC60091E277 /* SceneDelegate.swift */; };
+		33949DBC23A37CC60091E277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33949DBB23A37CC60091E277 /* ViewController.swift */; };
+		33949DBF23A37CC60091E277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33949DBD23A37CC60091E277 /* Main.storyboard */; };
+		33949DC223A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33949DC023A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodeld */; };
+		33949DC423A37CCB0091E277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33949DC323A37CCB0091E277 /* Assets.xcassets */; };
+		33949DC723A37CCB0091E277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33949DC523A37CCB0091E277 /* LaunchScreen.storyboard */; };
+		33949DD223A37CCB0091E277 /* FacebookPopUpAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33949DD123A37CCB0091E277 /* FacebookPopUpAnimationsTests.swift */; };
+		33949DDD23A37CCB0091E277 /* FacebookPopUpAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33949DDC23A37CCB0091E277 /* FacebookPopUpAnimationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33949DCE23A37CCB0091E277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33949DAC23A37CC60091E277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33949DB323A37CC60091E277;
+			remoteInfo = FacebookPopUpAnimations;
+		};
+		33949DD923A37CCB0091E277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33949DAC23A37CC60091E277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33949DB323A37CC60091E277;
+			remoteInfo = FacebookPopUpAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33949DB423A37CC60091E277 /* FacebookPopUpAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookPopUpAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33949DB723A37CC60091E277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33949DB923A37CC60091E277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33949DBB23A37CC60091E277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33949DBE23A37CC60091E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33949DC123A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookPopUpAnimations.xcdatamodel; sourceTree = "<group>"; };
+		33949DC323A37CCB0091E277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33949DC623A37CCB0091E277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33949DC823A37CCB0091E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33949DCD23A37CCB0091E277 /* FacebookPopUpAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookPopUpAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33949DD123A37CCB0091E277 /* FacebookPopUpAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPopUpAnimationsTests.swift; sourceTree = "<group>"; };
+		33949DD323A37CCB0091E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33949DD823A37CCB0091E277 /* FacebookPopUpAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookPopUpAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33949DDC23A37CCB0091E277 /* FacebookPopUpAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPopUpAnimationsUITests.swift; sourceTree = "<group>"; };
+		33949DDE23A37CCB0091E277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33949DB123A37CC60091E277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DCA23A37CCB0091E277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DD523A37CCB0091E277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33949DAB23A37CC60091E277 = {
+			isa = PBXGroup;
+			children = (
+				33949DB623A37CC60091E277 /* FacebookPopUpAnimations */,
+				33949DD023A37CCB0091E277 /* FacebookPopUpAnimationsTests */,
+				33949DDB23A37CCB0091E277 /* FacebookPopUpAnimationsUITests */,
+				33949DB523A37CC60091E277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33949DB523A37CC60091E277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33949DB423A37CC60091E277 /* FacebookPopUpAnimations.app */,
+				33949DCD23A37CCB0091E277 /* FacebookPopUpAnimationsTests.xctest */,
+				33949DD823A37CCB0091E277 /* FacebookPopUpAnimationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33949DB623A37CC60091E277 /* FacebookPopUpAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				33949DB723A37CC60091E277 /* AppDelegate.swift */,
+				33949DB923A37CC60091E277 /* SceneDelegate.swift */,
+				33949DBB23A37CC60091E277 /* ViewController.swift */,
+				33949DBD23A37CC60091E277 /* Main.storyboard */,
+				33949DC323A37CCB0091E277 /* Assets.xcassets */,
+				33949DC523A37CCB0091E277 /* LaunchScreen.storyboard */,
+				33949DC823A37CCB0091E277 /* Info.plist */,
+				33949DC023A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodeld */,
+			);
+			path = FacebookPopUpAnimations;
+			sourceTree = "<group>";
+		};
+		33949DD023A37CCB0091E277 /* FacebookPopUpAnimationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				33949DD123A37CCB0091E277 /* FacebookPopUpAnimationsTests.swift */,
+				33949DD323A37CCB0091E277 /* Info.plist */,
+			);
+			path = FacebookPopUpAnimationsTests;
+			sourceTree = "<group>";
+		};
+		33949DDB23A37CCB0091E277 /* FacebookPopUpAnimationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33949DDC23A37CCB0091E277 /* FacebookPopUpAnimationsUITests.swift */,
+				33949DDE23A37CCB0091E277 /* Info.plist */,
+			);
+			path = FacebookPopUpAnimationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33949DB323A37CC60091E277 /* FacebookPopUpAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33949DE123A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimations" */;
+			buildPhases = (
+				33949DB023A37CC60091E277 /* Sources */,
+				33949DB123A37CC60091E277 /* Frameworks */,
+				33949DB223A37CC60091E277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookPopUpAnimations;
+			productName = FacebookPopUpAnimations;
+			productReference = 33949DB423A37CC60091E277 /* FacebookPopUpAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33949DCC23A37CCB0091E277 /* FacebookPopUpAnimationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33949DE423A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimationsTests" */;
+			buildPhases = (
+				33949DC923A37CCB0091E277 /* Sources */,
+				33949DCA23A37CCB0091E277 /* Frameworks */,
+				33949DCB23A37CCB0091E277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33949DCF23A37CCB0091E277 /* PBXTargetDependency */,
+			);
+			name = FacebookPopUpAnimationsTests;
+			productName = FacebookPopUpAnimationsTests;
+			productReference = 33949DCD23A37CCB0091E277 /* FacebookPopUpAnimationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33949DD723A37CCB0091E277 /* FacebookPopUpAnimationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33949DE723A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimationsUITests" */;
+			buildPhases = (
+				33949DD423A37CCB0091E277 /* Sources */,
+				33949DD523A37CCB0091E277 /* Frameworks */,
+				33949DD623A37CCB0091E277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33949DDA23A37CCB0091E277 /* PBXTargetDependency */,
+			);
+			name = FacebookPopUpAnimationsUITests;
+			productName = FacebookPopUpAnimationsUITests;
+			productReference = 33949DD823A37CCB0091E277 /* FacebookPopUpAnimationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33949DAC23A37CC60091E277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ashwini Shalke";
+				TargetAttributes = {
+					33949DB323A37CC60091E277 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					33949DCC23A37CCB0091E277 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 33949DB323A37CC60091E277;
+					};
+					33949DD723A37CCB0091E277 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 33949DB323A37CC60091E277;
+					};
+				};
+			};
+			buildConfigurationList = 33949DAF23A37CC60091E277 /* Build configuration list for PBXProject "FacebookPopUpAnimations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33949DAB23A37CC60091E277;
+			productRefGroup = 33949DB523A37CC60091E277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33949DB323A37CC60091E277 /* FacebookPopUpAnimations */,
+				33949DCC23A37CCB0091E277 /* FacebookPopUpAnimationsTests */,
+				33949DD723A37CCB0091E277 /* FacebookPopUpAnimationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33949DB223A37CC60091E277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33949DC723A37CCB0091E277 /* LaunchScreen.storyboard in Resources */,
+				33949DC423A37CCB0091E277 /* Assets.xcassets in Resources */,
+				33949DBF23A37CC60091E277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DCB23A37CCB0091E277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DD623A37CCB0091E277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33949DB023A37CC60091E277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33949DBC23A37CC60091E277 /* ViewController.swift in Sources */,
+				33949DC223A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodeld in Sources */,
+				33949DB823A37CC60091E277 /* AppDelegate.swift in Sources */,
+				33949DBA23A37CC60091E277 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DC923A37CCB0091E277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33949DD223A37CCB0091E277 /* FacebookPopUpAnimationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33949DD423A37CCB0091E277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33949DDD23A37CCB0091E277 /* FacebookPopUpAnimationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33949DCF23A37CCB0091E277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33949DB323A37CC60091E277 /* FacebookPopUpAnimations */;
+			targetProxy = 33949DCE23A37CCB0091E277 /* PBXContainerItemProxy */;
+		};
+		33949DDA23A37CCB0091E277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33949DB323A37CC60091E277 /* FacebookPopUpAnimations */;
+			targetProxy = 33949DD923A37CCB0091E277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33949DBD23A37CC60091E277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33949DBE23A37CC60091E277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33949DC523A37CCB0091E277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33949DC623A37CCB0091E277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33949DDF23A37CCB0091E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33949DE023A37CCB0091E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33949DE223A37CCB0091E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33949DE323A37CCB0091E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33949DE523A37CCB0091E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimationsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookPopUpAnimations.app/FacebookPopUpAnimations";
+			};
+			name = Debug;
+		};
+		33949DE623A37CCB0091E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimationsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookPopUpAnimations.app/FacebookPopUpAnimations";
+			};
+			name = Release;
+		};
+		33949DE823A37CCB0091E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookPopUpAnimations;
+			};
+			name = Debug;
+		};
+		33949DE923A37CCB0091E277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookPopUpAnimationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTable.FacebookPopUpAnimationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookPopUpAnimations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33949DAF23A37CC60091E277 /* Build configuration list for PBXProject "FacebookPopUpAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33949DDF23A37CCB0091E277 /* Debug */,
+				33949DE023A37CCB0091E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33949DE123A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33949DE223A37CCB0091E277 /* Debug */,
+				33949DE323A37CCB0091E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33949DE423A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33949DE523A37CCB0091E277 /* Debug */,
+				33949DE623A37CCB0091E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33949DE723A37CCB0091E277 /* Build configuration list for PBXNativeTarget "FacebookPopUpAnimationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33949DE823A37CCB0091E277 /* Debug */,
+				33949DE923A37CCB0091E277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33949DC023A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33949DC123A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodel */,
+			);
+			currentVersion = 33949DC123A37CC60091E277 /* FacebookPopUpAnimations.xcdatamodel */;
+			path = FacebookPopUpAnimations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33949DAC23A37CC60091E277 /* Project object */;
+}
