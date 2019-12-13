@@ -18,26 +18,55 @@ class ViewController: UIViewController {
     
     var IconsContainerView: UIView = {
         let myview = UIView()
-        myview.backgroundColor = .blue
-        myview.frame = CGRect(x: 0, y: 0, width: 200, height: 100)
+        myview.backgroundColor = .white
+        
+//        var view1 = UIView()
+//        view1.backgroundColor = .red
+//        var view2 = UIView()
+//        view2.backgroundColor = .green
+//        let arrangedIcons = [view1,view2]
+        
+        let emojiIcon = ["blue_like","red_heart","surprised","cry_laugh","cry","angry"]
+        let arrangedIcons = emojiIcon.map { (imageName) -> UIImageView in
+            let imageIconView = UIImageView()
+            imageIconView.image = UIImage(named: imageName)
+            return imageIconView
+        }
+        
+        let padding:CGFloat = 6
+        let Iconheight:CGFloat = 38
+        let IconCount = CGFloat(arrangedIcons.count)
+        let customMyViewWidth = (IconCount + Iconheight) * IconCount + padding
+       
+        
+        
+        
+       
+        
+        let stackView = UIStackView(arrangedSubviews: arrangedIcons)
+        stackView.distribution = .fillEqually
+        
+        myview.layer.cornerRadius = myview.frame.height/2
+        
+        
+        stackView.spacing = padding
+        stackView.layoutMargins = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        stackView.isLayoutMarginsRelativeArrangement = true
+        myview.frame = CGRect(x: 0, y: 0, width: customMyViewWidth, height: Iconheight)
+        stackView.frame = myview.frame
+        myview.addSubview(stackView)
         return myview
     }()
     
     
-    let IconArray:[UIImage] = 
     
-    var IconsStackView: UIStackView = {
-        let stackView = UIStackView()
-        
-        
-        return stackView
-    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(backgroundImageView)
         backgroundImageView.frame = view.frame
         setupLongGesture()
+        
     }
     
     override var prefersStatusBarHidden: Bool {return true}
