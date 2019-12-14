@@ -19,40 +19,42 @@ class ViewController: UIViewController {
     var IconsContainerView: UIView = {
         let myview = UIView()
         myview.backgroundColor = .white
+        let padding:CGFloat = 6
+        let Iconheight:CGFloat = 38
+        
         
 //        var view1 = UIView()
 //        view1.backgroundColor = .red
+//        view1.layer.cornerRadius = Iconheight/2
 //        var view2 = UIView()
 //        view2.backgroundColor = .green
-//        let arrangedIcons = [view1,view2]
+//        view2.layer.cornerRadius = Iconheight/2
+//        var view3 = UIView()
+//        view3.backgroundColor = .blue
+//        view3.layer.cornerRadius = Iconheight/2
+//        let arrangedIcons = [view1,view2,view3]
+        
         
         let emojiIcon = ["blue_like","red_heart","surprised","cry_laugh","cry","angry"]
         let arrangedIcons = emojiIcon.map { (imageName) -> UIImageView in
             let imageIconView = UIImageView()
+            imageIconView.layer.cornerRadius = Iconheight/2
             imageIconView.image = UIImage(named: imageName)
             return imageIconView
         }
         
-        let padding:CGFloat = 6
-        let Iconheight:CGFloat = 38
+        
         let IconCount = CGFloat(arrangedIcons.count)
         let customMyViewWidth = (IconCount + Iconheight) * IconCount + padding
-       
-        
-        
-        
-       
-        
+
         let stackView = UIStackView(arrangedSubviews: arrangedIcons)
         stackView.distribution = .fillEqually
-        
-        myview.layer.cornerRadius = myview.frame.height/2
-        
-        
         stackView.spacing = padding
         stackView.layoutMargins = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
         stackView.isLayoutMarginsRelativeArrangement = true
-        myview.frame = CGRect(x: 0, y: 0, width: customMyViewWidth, height: Iconheight)
+        
+        myview.frame = CGRect(x: 0, y: 0, width: customMyViewWidth, height: Iconheight + 2 * padding)
+        myview.layer.cornerRadius = myview.frame.height/2
         stackView.frame = myview.frame
         myview.addSubview(stackView)
         return myview
