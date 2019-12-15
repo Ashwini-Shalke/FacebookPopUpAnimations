@@ -76,6 +76,10 @@ class ViewController: UIViewController {
         if gesture.state == .began {
             handleBeganGesture(gesture:gesture)
         } else if gesture.state == .ended {
+            let stackView = self.IconsContainerView.subviews.first
+            stackView?.subviews.forEach({ (image) in
+                image.transform = .identity
+            })
             IconsContainerView.removeFromSuperview()
         } else if gesture.state == .changed{
             handleChangedGesture(gesture: gesture)
@@ -86,20 +90,14 @@ class ViewController: UIViewController {
         let pressLocation = gesture.location(in: IconsContainerView)
         let hitTestView = IconsContainerView.hitTest(pressLocation, with: nil)
         if (hitTestView is UIImageView){
-            UIView.animate(withDuration: 0.45, delay: 0.45, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-                
+            UIView.animate(withDuration: 0.30, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 let stackView = self.IconsContainerView.subviews.first
                 stackView?.subviews.forEach({ (imageView) in
                     imageView.transform = .identity
-                    
                 })
-                
-                
             })
-            
             hitTestView?.transform = CGAffineTransform(translationX: 0, y: -50)
         }
-        
     }
     
     fileprivate func handleBeganGesture(gesture:UILongPressGestureRecognizer){
@@ -110,7 +108,7 @@ class ViewController: UIViewController {
         
         IconsContainerView.alpha = 0
         
-        UIView.animate(withDuration: 0.45, delay: 0.45, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.30, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
             self.IconsContainerView.alpha = 1
             self.IconsContainerView.transform = CGAffineTransform(translationX: locationX, y: pressLocation.y - self.IconsContainerView.frame.height)
         })
