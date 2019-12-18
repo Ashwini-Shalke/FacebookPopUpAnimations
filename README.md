@@ -1,7 +1,15 @@
 # FacebookPopUpAnimations
    
-   ###Undoubetly everyone knows about facebook and many a times might have pressed the like button also.
+   Undoubetly everyone knows about facebook and many a times might have pressed the LIKE button also.Whenever you move your               cursor on emojis, the emojis will be scaled. The same experience of LIKE, is implemeneted here but here emojis will pop-up instead of scaled.
    
+   ### What is included 
+   - Implementation of LongPress Gesture.
+   - Core Animations.
+   - Hit Test.
+   - Built UI for emojis using StackView.
+   
+   
+  
    ![picture](myDesktop/Emojis.png)
    <img src="/Users/AshwiniShalke/MyDesktop/Emojis.png"
    alt="Markdown Monster icon"
