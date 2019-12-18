@@ -3,7 +3,7 @@
    ###Undoubetly everyone knows about facebook and many a times might have pressed the like button also.
    
    ![picture](myDesktop/Emojis.png)
-   <img src="Emojis.png"
+   <img src="/Users/AshwiniShalke/MyDesktop/Emojis.png"
    alt="Markdown Monster icon"
    style="float: left; margin-right: 10px;" />
    
