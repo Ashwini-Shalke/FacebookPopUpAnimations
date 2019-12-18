@@ -8,8 +8,9 @@
    - Hit Test.
    - Built UI for emojis using StackView.
    
- 
-   ![picture](Images/Emojis.png)
+    
+   <img src = "Images/Emojis.png" width=400>
+
   
   
   ### Long-Press Gesture
@@ -18,6 +19,12 @@ Long-Press gesture is a subclass of Gesture, which is nothing but press and hold
 You can configure the number of gesture, number of taps and minimum press duration also.
 
    
-   
-   
-   ##
+### Screenshot of Animated Emoji's
+
+<img src = "Images/AnimatedEmoji.png" width = 400>
+
+### Reference Link
+- [Animation Pop-up Animation Episode 1](https://www.youtube.com/watch?v=wbmTy32s7GQ)
+- [Animation Pop-up Animation Episode 2](https://www.youtube.com/watch?v=yGuaESsuxcg)
+    
+
