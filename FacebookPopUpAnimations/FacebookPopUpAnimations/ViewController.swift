@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     
     var backgroundImageView: UIImageView = {
@@ -22,7 +23,8 @@ class ViewController: UIViewController {
         let padding:CGFloat = 6
         let Iconheight:CGFloat = 38
         
- 
+    
+        
         let emojiIcon = ["blue_like","red_heart","surprised","cry_laugh","cry","angry"]
         let arrangedIcons = emojiIcon.map { (imageName) -> UIImageView in
             let imageIconView = UIImageView()
@@ -89,6 +91,7 @@ class ViewController: UIViewController {
     fileprivate func handleChangedGesture(gesture: UILongPressGestureRecognizer){
         let pressLocation = gesture.location(in: IconsContainerView)
         let hitTestView = IconsContainerView.hitTest(pressLocation, with: nil)
+        
         if (hitTestView is UIImageView){
             UIView.animate(withDuration: 0.30, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 let stackView = self.IconsContainerView.subviews.first
@@ -96,9 +99,18 @@ class ViewController: UIViewController {
                     imageView.transform = .identity
                 })
             })
-            hitTestView?.transform = CGAffineTransform(translationX: 0, y: -50)
-        }
+        
+           
+                UIView.animate(withDuration: 0.30, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+                              
+                                    hitTestView?.transform = CGAffineTransform(scaleX: 2, y: 2)
+                               })
+                           
+           //hitTestView?.transform = CGAffineTransform(translationX: 0, y: -50)
+            //hitTestView?.transform = CGAffineTransform(scaleX: 2, y: 2)
+         
     }
+}
     
     fileprivate func handleBeganGesture(gesture:UILongPressGestureRecognizer){
         view.addSubview(IconsContainerView)
