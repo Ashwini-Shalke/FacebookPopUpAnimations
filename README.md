@@ -18,7 +18,7 @@ You can configure the number of gesture, number of taps and minimum press durati
 
    
 ### Animated Emoji's
-<img src = "Images/AnimatedEmoji.png" width = 400>
+<a href="https://imgflip.com/gif/3mk2sz"><img src="https://i.imgflip.com/3mk2sz.gif" title="made at imgflip.com"/></a>
 
 
 ### Reference Link
